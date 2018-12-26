@@ -1,0 +1,11 @@
+{
+  "name": "super-scraper",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:LukasBombach/super-scraper.git",
+  "author": "Lukas Bombach <lukas.bombach@googlemail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "0.4.19"
+  }
+}
