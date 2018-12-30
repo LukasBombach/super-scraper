@@ -11,6 +11,7 @@ const path = require("path");
   console.log("\x1Bc");
 
   for (const datFile of datFiles) {
+
     console.log(datFile);
   }
 })();
