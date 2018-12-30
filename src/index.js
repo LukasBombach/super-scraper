@@ -1,13 +1,7 @@
-const path = require("path");
-const DatFile = require("./models/datfile");
+const Database = require("./models/database");
 
-const datPath = path.resolve(
-  __dirname,
-  "datFiles",
-  "FB Alpha (ClrMame Pro XML, Neogeo only).dat.xml"
-);
+const datFile = "FB Alpha (ClrMame Pro XML, Neogeo only).dat.xml";
 
 (async () => {
-  const data = await DatFile.get(datPath);
-  console.log(data);
+  await Database.buildForDatFile(datFile);
 })();

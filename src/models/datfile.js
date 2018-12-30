@@ -31,7 +31,7 @@ class DatFile {
     const crc = rom.$.crc
       ? rom.$.crc.toLowerCase().padStart(8, "0")
       : undefined;
-    return { name, size, crc };
+    return { name, crc, size };
   }
 }
 

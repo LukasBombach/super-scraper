@@ -6,6 +6,10 @@
   "author": "Lukas Bombach <lukas.bombach@googlemail.com>",
   "license": "MIT",
   "dependencies": {
+    "chalk": "2.4.1",
+    "lodash": "4.17.11",
+    "node-fetch": "2.3.0",
+    "p-queue": "3.0.0",
     "xml2js": "0.4.19"
   }
 }
