@@ -1,0 +1,20 @@
+{
+  "name": "super-scraper",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:LukasBombach/super-scraper.git",
+  "author": "Lukas Bombach <lukas.bombach@googlemail.com>",
+  "license": "MIT",
+  "scripts": {
+    "buildDatabase": "node src/buildDatabase.js",
+    "buildDatabase:dev": "nodemon --quiet --inspect src/buildDatabase.js"
+  },
+  "dependencies": {
+    "chalk": "2.4.1",
+    "lodash": "4.17.11",
+    "node-fetch": "2.3.0",
+    "nodemon": "1.18.9",
+    "p-queue": "3.0.0",
+    "xml2js": "0.4.19"
+  }
+}
